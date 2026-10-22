@@ -8,7 +8,7 @@ Ruta prevista: https://phdgeografo.github.io/VISOR-CIUDADANO/ — requiere habil
 
 ## Fuentes y trazabilidad
 
-- Carpeta documental de referencia **PLATAFORMA MONITOREO**: https://drive.google.com/drive/folders/1yqBAUOnbRpvYHcZIerXXwysecAzIIrix
+- Carpeta documental de referencia **Plataforma Ciudadana — BBDD y documentación**: https://drive.google.com/drive/folders/1YHqRaUjwFBzgBUbtuNRGCfxuJzIO8SgW
 - Base temática pública auxiliar: pdt-proyectos-listado.json (proyectos PDT, sin datos personales de participantes).
 - Original de la primera versión: versiones/index-inicial.html.
 - Versión más completa adaptada de PHDGEOGRAFO/VISOR-INICIATIVAS-CIUDADANAS-VIC-.
@@ -18,3 +18,7 @@ Ruta prevista: https://phdgeografo.github.io/VISOR-CIUDADANO/ — requiere habil
 **Versión demostrativa:** GitHub Pages no es una base de datos transaccional. No almacena de forma centralizada ni segura las propuestas enviadas por distintos ciudadanos. Ninguna contraseña embebida en JavaScript protege realmente el panel administrador. Los datos de identificación, teléfonos, direcciones o correos de participantes no deben subirse al repositorio ni a archivos GeoPackage públicos.
 
 Falta implementar un backend privado con autenticación real, persistencia histórica de iniciativas, respaldo por temática y geometría en Google Drive, vínculo individual con los 307 registros espaciales PDT y validación institucional del MATCH. La matriz de proyectos y la capa geográfica no son necesariamente equivalentes registro a registro.
+
+## Respaldos de iniciativas
+
+Dentro de la carpeta principal, `08 Insumos iniciativas vecinos` organiza las iniciativas por área temática y geometría. Esta estructura es un destino previsto de respaldo; no implica sincronización automática con el visor web estático.
